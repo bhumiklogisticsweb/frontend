@@ -6,10 +6,10 @@ body {
 }
 
 .pdf-gallery {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   /* Adds gap between image containers */
   /* padding: 0 5vw; */
   box-sizing: border-box;
@@ -28,7 +28,6 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  box-sizing: border-box;
 }
 
 .contact-section {
@@ -118,4 +117,12 @@ body {
 
 .contact-form button i {
   color: #fff !important;
+}
+
+@media (max-width: 480px) {
+  .pdf-gallery img {
+    height: 400px;        /* fixed height */
+    background-color: #fff; /* optional, to fill background if empty space */
+    width: 100%;          /* keep full width */
+  }
 }
