@@ -15,19 +15,19 @@
 <body>
   <div class="pdf-gallery">
     <div>
-      <img src="pdf1.png" alt="PDF 1" />
+      <img src="pdf1.jpg" alt="PDF 1" />
     </div>
     <div>
-      <img src="image2.png" alt="Image 2" />
+      <img src="image2.jpg" alt="Image 2" />
     </div>
     <div>
-      <img src="image3.png" alt="Image 3" />
+      <img src="image3.webp" alt="Image 3" />
     </div>
     <div>
-      <img src="image4.png" alt="Image 4" />
+      <img src="image4.webp" alt="Image 4" />
     </div>
     <div>
-      <img src="image5.png" alt="Image 5" />
+      <img src="image5.webp" alt="Image 5" />
     </div>
     <div>
       <img src="image6.png" alt="Image 6" />
@@ -101,7 +101,7 @@
       };
 
       try {
-        const response = await fetch('http://localhost:5000/contact', {
+        const response = await fetch('https://bhumiklogistics.onrender.com/contact', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
