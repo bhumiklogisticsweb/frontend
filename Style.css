@@ -121,7 +121,7 @@ body {
 
 @media (max-width: 480px) {
   .pdf-gallery img {
-    height: 400px;        /* fixed height */
+    height: 300px;        /* fixed height */
     background-color: #fff; /* optional, to fill background if empty space */
     width: 100%;          /* keep full width */
   }
